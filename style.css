@@ -1,0 +1,48 @@
+.wrapper {
+  border: 2px solid grey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.textarea {
+  margin-bottom: 10px;
+}
+
+.shift {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  align-self: center;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.shiftInput {
+  font-size: 20px;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 65%;
+}
+
+.displayP {
+  font-size: 39px;
+}
+
+.loading {
+  background-image: url('loading.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none;
+  height: 100px;
+  width: 100px;
+}
